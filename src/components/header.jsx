@@ -1,8 +1,12 @@
 import react from 'react'
 
 function Header(){
+
     return(
-        <h1>this is the header</h1>
+        <div className='header'>
+             <h1 className='main-header'>Keeper</h1>
+        </div>
+       
     )
 }
 
