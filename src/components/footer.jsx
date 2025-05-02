@@ -3,9 +3,9 @@ import react from 'react';
 const currentYear = new Date().getFullYear();
 function Footer(){
     return (
-        <div className='Footer'>
+        <footer className='footer'>
             <p>Copyright {currentYear}</p>
-        </div>
+        </footer>
         
     )
 }

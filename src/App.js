@@ -4,9 +4,6 @@ import Header from './components/header';
 import Firstbox from './components/firstbox';
 import Footer from './components/footer';
 
-
-
-
 function App() {
   return (
     <div>

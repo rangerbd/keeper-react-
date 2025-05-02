@@ -38,6 +38,10 @@ body{
   margin-top: 0;
 }
 
-.Footer{
+.footer{
+  position: absolute;
   text-align: center;
+  bottom: 0;
+  height: 2.5rem;
+  
 }
