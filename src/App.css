@@ -29,11 +29,15 @@ body{
   
   
 }
-.box h4{
+.box h4 {
   margin-bottom: 0;
   margin-top: 6%;
   
 }
 .box p{
   margin-top: 0;
+}
+
+.Footer{
+  text-align: center;
 }
