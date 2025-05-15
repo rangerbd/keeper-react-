@@ -16,8 +16,12 @@ body{
   padding: 20px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
-.box{
+.bod{
+  width: 100%;
+  display: inline-block;
+  margin-top: 40px;
+}
+.bod .box{
   display: inline-block;
   border: 1px solid grey;
   border-radius: 5px;
@@ -39,7 +43,7 @@ body{
 }
 
 .footer{
-  position: absolute;
+  
   text-align: center;
   bottom: 0;
   height: 2.5rem;
