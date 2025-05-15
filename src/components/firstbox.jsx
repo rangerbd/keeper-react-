@@ -1,10 +1,11 @@
 import React from "react";
+import notes from "./note";
 
-function Firstbox(){
+function Firstbox(props){
     return(
     <div className="box">
-        <h4>This is the note title</h4>
-        <p>This is the note content</p>
+        <h4>{props.title}</h4>
+        <p>{props.content}</p>
     </div>
     )
 }
